@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Script xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Commands>
+    <ScriptAction>
+      <ScriptCommand xsi:type="SeleniumBrowserCreateWebBrowserInstanceCommand" CommandID="e2011ada-e831-4030-a124-3c185313fa44" CommandName="SeleniumBrowserCreateWebBrowserInstanceCommand" IsCommented="false" SelectionName="Create Web Browser Instance" DefaultPause="0" LineNumber="1" PauseBeforeExeucution="false" CommandEnabled="true" v_InstanceName="RPABrowser" v_InstanceTracking="Forget Instance" v_BrowserWindowOption="Maximize" v_SeleniumOptions="" v_EngineType="Firefox" v_BrowserPath="" v_WebDriverPath="" />
+    </ScriptAction>
+    <ScriptAction>
+      <ScriptCommand xsi:type="SeleniumBrowserNavigateURLCommand" CommandID="967742a8-a2c0-4284-8a89-6c8845c5de50" CommandName="SeleniumBrowserNavigateURLCommand" IsCommented="false" SelectionName="Navigate to URL" DefaultPause="0" LineNumber="2" PauseBeforeExeucution="false" CommandEnabled="true" v_InstanceName="RPABrowser" v_URL="https://www.amazon.in/" v_UseHttps="" />
+    </ScriptAction>
+    <ScriptAction>
+      <ScriptCommand xsi:type="SeleniumBrowserSearchWebElementCommand" CommandID="697e2c4f-8e11-4caa-add9-3700fd42b919" CommandName="SeleniumBrowserSearchWebElementCommand" IsCommented="false" SelectionName="Search WebElement" DefaultPause="0" LineNumber="3" PauseBeforeExeucution="false" CommandEnabled="true" v_InstanceName="RPABrowser" v_SeleniumSearchType="Find Element By XPath" v_SeleniumSearchParameter="/html/body/div[1]/header/div/div[1]/div[3]/div/a[2]/span" v_ElementIndex="0" v_Result="⦃vLoginButton⦄" v_WaitTime="120" />
+    </ScriptAction>
+    <ScriptAction>
+      <ScriptCommand xsi:type="SeleniumBrowserClickWebElementCommand" CommandID="d07ca481-23e0-440b-beba-591772e908e7" CommandName="SeleniumBrowserClickWebElementCommand" IsCommented="false" SelectionName="Click WebElement" DefaultPause="0" LineNumber="4" PauseBeforeExeucution="false" CommandEnabled="true" v_WebElement="⦃vLoginButton⦄" v_ClickType="Left Click" v_InstanceName="RPABrowser" v_XOffset="20" v_YOffset="150" v_WhenFailClick="" v_ScrollToElement="" />
+    </ScriptAction>
+    <ScriptAction>
+      <ScriptCommand xsi:type="SeleniumBrowserSearchWebElementCommand" CommandID="b91444c3-5639-4cce-b619-71270587ea37" CommandName="SeleniumBrowserSearchWebElementCommand" IsCommented="false" SelectionName="Search WebElement" DefaultPause="0" LineNumber="5" PauseBeforeExeucution="false" CommandEnabled="true" v_InstanceName="RPABrowser" v_SeleniumSearchType="Find Element By XPath" v_SeleniumSearchParameter="//input[@aria-label='Enter your mobile number or email']" v_ElementIndex="0" v_Result="⦃vUserName⦄" v_WaitTime="120" />
+    </ScriptAction>
+    <ScriptAction>
+      <ScriptCommand xsi:type="SeleniumBrowserSetTextToWebElementCommand" CommandID="4170294f-b20e-403f-9d1d-458bb9db3efb" CommandName="SeleniumBrowserSetTextToWebElementCommand" IsCommented="false" SelectionName="Set Text To WebElement" DefaultPause="0" LineNumber="6" PauseBeforeExeucution="false" CommandEnabled="true" v_WebElement="⦃vUserName⦄" v_TextToSet="9480205457" v_ClearTextBeforeSetting="" v_EncryptedText="" v_WhenSetNotSupported="" v_ScrollToElement="" v_InstanceName="RPABrowser" />
+    </ScriptAction>
+    <ScriptAction>
+      <ScriptCommand xsi:type="SeleniumBrowserSearchWebElementCommand" CommandID="42df1ddb-c2b8-4b40-9b7f-e533deebc82b" CommandName="SeleniumBrowserSearchWebElementCommand" IsCommented="false" SelectionName="Search WebElement" DefaultPause="0" LineNumber="7" PauseBeforeExeucution="false" CommandEnabled="true" v_InstanceName="RPABrowser" v_SeleniumSearchType="Find Element By XPath" v_SeleniumSearchParameter="/html/body/div[1]/div[1]/div[2]/div/div/div/div/span/form/span/span/input" v_ElementIndex="0" v_Result="⦃vContinue⦄" v_WaitTime="120" />
+    </ScriptAction>
+    <ScriptAction>
+      <ScriptCommand xsi:type="SeleniumBrowserClickWebElementCommand" CommandID="7db5aab3-847e-4025-ba0a-6708ecc137fd" CommandName="SeleniumBrowserClickWebElementCommand" IsCommented="false" SelectionName="Click WebElement" DefaultPause="0" LineNumber="8" PauseBeforeExeucution="false" CommandEnabled="true" v_WebElement="⦃vContinue⦄" v_ClickType="Left Click" v_InstanceName="RPABrowser" v_XOffset="20" v_YOffset="120" v_WhenFailClick="" v_ScrollToElement="" />
+    </ScriptAction>
+    <ScriptAction>
+      <ScriptCommand xsi:type="SeleniumBrowserSearchWebElementCommand" CommandID="1b0648b8-63ab-4fff-b466-4f004ffd7926" CommandName="SeleniumBrowserSearchWebElementCommand" IsCommented="false" SelectionName="Search WebElement" DefaultPause="0" LineNumber="9" PauseBeforeExeucution="false" CommandEnabled="true" v_InstanceName="RPABrowser" v_SeleniumSearchType="Find Element By XPath" v_SeleniumSearchParameter="//*[@id=&quot;ap_password&quot;]" v_ElementIndex="0" v_Result="⦃vPassword⦄" v_WaitTime="120" />
+    </ScriptAction>
+    <ScriptAction>
+      <ScriptCommand xsi:type="SeleniumBrowserSetTextToWebElementCommand" CommandID="339eefaa-e6c7-4d20-8d21-fa8eaa6bf4aa" CommandName="SeleniumBrowserSetTextToWebElementCommand" IsCommented="false" SelectionName="Set Text To WebElement" DefaultPause="0" LineNumber="10" PauseBeforeExeucution="false" CommandEnabled="true" v_WebElement="⦃vPassword⦄" v_TextToSet="Sid@19959977" v_ClearTextBeforeSetting="" v_EncryptedText="" v_WhenSetNotSupported="" v_ScrollToElement="" v_InstanceName="RPABrowser" />
+    </ScriptAction>
+    <ScriptAction>
+      <ScriptCommand xsi:type="SeleniumBrowserSearchWebElementCommand" CommandID="df109233-8971-49d3-817e-4263a8580a54" CommandName="SeleniumBrowserSearchWebElementCommand" IsCommented="false" SelectionName="Search WebElement" DefaultPause="0" LineNumber="11" PauseBeforeExeucution="false" CommandEnabled="true" v_InstanceName="RPABrowser" v_SeleniumSearchType="Find Element By XPath" v_SeleniumSearchParameter="//*[@id=&quot;signInSubmit&quot;]" v_ElementIndex="0" v_Result="⦃vSignIn⦄" v_WaitTime="120" />
+    </ScriptAction>
+    <ScriptAction>
+      <ScriptCommand xsi:type="SeleniumBrowserClickWebElementCommand" CommandID="9ec33a25-44ae-4df7-88a9-e05695778f4c" CommandName="SeleniumBrowserClickWebElementCommand" IsCommented="false" SelectionName="Click WebElement" DefaultPause="0" LineNumber="12" PauseBeforeExeucution="false" CommandEnabled="true" v_WebElement="⦃vSignIn⦄" v_ClickType="Left Click" v_InstanceName="RPABrowser" v_XOffset="20" v_YOffset="120" v_WhenFailClick="" v_ScrollToElement="" />
+    </ScriptAction>
+    <ScriptAction>
+      <ScriptCommand xsi:type="SeleniumBrowserCloseWebBrowserInstanceCommand" CommandID="6895dc11-9ec5-4881-b9be-3521cffe4739" CommandName="SeleniumBrowserCloseWebBrowserInstanceCommand" IsCommented="true" SelectionName="Close Web Browser Instance" DefaultPause="0" LineNumber="13" PauseBeforeExeucution="false" CommandEnabled="true" v_InstanceName="RPABrowser" />
+    </ScriptAction>
+  </Commands>
+  <Info>
+    <TasktVersion>3.6.0.0</TasktVersion>
+    <Author />
+    <LastRunTime>2024-07-05T00:00:04.9237362+05:30</LastRunTime>
+    <RunTimes>26</RunTimes>
+    <ScriptVersion>0.0.0</ScriptVersion>
+    <Description />
+  </Info>
+  <Variables />
+</Script>
